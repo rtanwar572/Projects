@@ -1,0 +1,171 @@
+.btn41-43 {
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn-41 {
+    border: 2px solid rgb(49, 45, 45);
+    z-index: 1;
+    color: rgb(100, 97, 97);
+  }
+  
+  .btn-41:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(212, 123, 6);
+    transition: all 0.3s ease;
+  }
+  
+ 
+  
+  .btn-41:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  
+  .btn-41:active {
+    top: 2px;
+  }
+  .box:hover .btn-41{
+    border:.2rem solid var(--orange);
+    color: white;
+
+  }
+  /* css for second btn */
+  div.cont{
+      
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size:2em ;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.bg-2{
+    background: url("../grocery web/image/blog-2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+}
+.cont h{
+text-align: center;
+}
+.bn32 {
+border:px solid #555050;
+padding: 0.6em 2.3em;
+cursor: pointer;
+font-size: 1.3em;
+color: black;
+background-image: linear-gradient(45deg, transparent 50%, #d87709 50%);
+background-position: 25%;
+background-size: 400%;
+-webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+transition: background 500ms ease-in-out, color 500ms ease-in-out;
+border-radius: 5px;
+}
+
+.bn32:hover {
+color: #ffffff;
+background-position: 100%;
+}
+
+.bn54 {
+position: relative;
+outline: none;
+text-decoration: none;
+border-radius: 50px;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+cursor: pointer;
+text-transform: uppercase;
+height: 45px;
+width: 130px;
+opacity: 1;
+background-color: #d87709;
+border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.bn54 .bn54span {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #000000;
+font-size: 12px;
+font-weight: 500;
+letter-spacing: 0.7px;
+}
+
+.bn54:hover {
+animation: bn54rotate 0.7s ease-in-out both;
+}
+
+.bn54:hover .bn54span {
+animation: bn54storm 0.7s ease-in-out both;
+animation-delay: 0.06s;
+}
+
+@keyframes bn54rotate {
+0% {
+  transform: rotate(0deg) translate3d(0, 0, 0);
+}
+25% {
+  transform: rotate(3deg) translate3d(0, 0, 0);
+}
+50% {
+  transform: rotate(-3deg) translate3d(0, 0, 0);
+}
+75% {
+  transform: rotate(1deg) translate3d(0, 0, 0);
+}
+100% {
+  transform: rotate(0deg) translate3d(0, 0, 0);
+}
+}
+
+@keyframes bn54storm {
+0% {
+  transform: translate3d(0, 0, 0) translateZ(0);
+}
+25% {
+  transform: translate3d(4px, 0, 0) translateZ(0);
+}
+50% {
+  transform: translate3d(-3px, 0, 0) translateZ(0);
+}
+75% {
+  transform: translate3d(2px, 0, 0) translateZ(0);
+}
+100% {
+  transform: translate3d(0, 0, 0) translateZ(0);
+}
+}
+
+/* css for checkout btn */
+.btn1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
